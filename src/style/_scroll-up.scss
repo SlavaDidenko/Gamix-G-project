@@ -1,0 +1,25 @@
+.scroll-up {
+  z-index: 10;
+  position: fixed;
+  display: none;
+  bottom: 25px;
+  right: 20px;
+  &__img {
+    height: 62px;
+    width: 62px;
+  }
+}
+
+.scroll-up-active{
+  animation: scroll 0.4s ease;
+  display: block;
+}
+@keyframes scroll {
+  0% {
+    transform: translateY(87px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}

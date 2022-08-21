@@ -1,0 +1,35 @@
+@import 'style/animate.css';
+@import 'swiper/css';
+@import 'swiper/css/pagination';
+
+
+@import 'libs/normalize';
+@import 'style/fonts';
+@import 'style/var';
+
+@import 'style/style';
+
+@import 'style/footer';
+@import 'style/header';
+@import 'style/main-page';
+@import 'style/about';
+@import 'style/shop';
+@import 'style/streamer';
+@import 'style/testimonial';
+
+
+
+@import 'style/help';
+@import 'style/modify-title';
+@import 'style/paralax';
+@import 'style/popup';
+@import 'style/scroll-up';
+@import 'style/suptitle';
+@import 'style/text';
+@import 'style/btn-arrow';
+@import 'style/btn-started';
+
+html {
+  scroll-behavior: smooth;
+}
+

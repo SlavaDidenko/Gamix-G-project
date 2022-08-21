@@ -1,0 +1,33 @@
+.help {
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+
+  &__item {
+    padding: 5px 30px;
+    @media (max-width: 900px) {
+      padding: 5px 15px;
+    }
+    @media (max-width: 768px) {
+      flex: 0 1 33.3%;
+
+    }
+    @media (max-width: 480px) {
+      flex: 0 1 50%;
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 188%;
+    color: #FFFFFF;
+    &:hover{
+      color: #E6E6E6;
+    }
+  }
+}

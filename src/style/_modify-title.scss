@@ -1,0 +1,15 @@
+.modify-title {
+  font-size: 50px;
+  line-height: 108%;
+  color: #171147;
+  font-weight: 700;
+  &__red{
+    color: #842774;
+  }
+  @media (max-width: 1000px) {
+    font-size: 44px ;
+  }
+  @media (max-width: 768px) {
+    font-size: 32px ;
+  }
+}

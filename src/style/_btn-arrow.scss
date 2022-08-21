@@ -1,0 +1,36 @@
+.btn-arrow {
+  display: inline-flex;
+  align-items: center ;
+
+  position: relative;
+
+  padding: 13px 83px 13px 43px;
+  background: #B53071;
+  border-radius: 25px;
+
+  font-size: 18px;
+  line-height: 133%;
+  color: #FFFFFF;
+  
+  transition: all 0.3s ease;
+    &::before{
+      content: '';
+      position: absolute;
+      top: 50%;
+      right: 42px;
+
+      transform: translateY(-50%);
+
+      background: url('./img/arrow.svg');
+
+      height: 14px;
+      width: 33px;
+      transition: all 0.5s ease;
+    } 
+    &:hover{
+      &::before{
+
+        transform: translate(23px, -50%);
+      }
+    } 
+}

@@ -1,0 +1,138 @@
+.footer {
+  background: url('./img/footer/footer-bg.png') center no-repeat;
+  background-size: cover;
+  padding: 63px 0 0;
+
+  @media (max-width:968px) {
+  background: rgb(103,1,185);
+  background: linear-gradient(0deg, rgba(103,1,185,1) 0%, rgba(142,83,237,1) 64%, rgba(142,83,237,1) 64%, rgba(229,123,255,1) 100%);  
+  }
+  &__row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    @media (max-width: 968px) {
+      flex-wrap: wrap;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  &__coll {
+    max-width: 326px;
+    margin-right: 20px;
+    &:last-child{
+      margin-right: 0;
+    }
+    @media (max-width: 968px) {
+      flex: 0 1 50%;
+      margin-right: 0;
+      margin-bottom: 20px;
+      
+    }
+    @media (max-width: 768px) {
+      
+    }
+  }
+
+  &__logo {
+  display: inline-block;
+
+  font-size: 40px;
+  line-height: 47px;
+  color: #FFFFFF;
+  font-weight: 700;
+  
+  margin-bottom: 33px;
+
+  @media (max-width:968px) {
+    margin-bottom: 20px;
+  }
+  }
+
+  &__text {
+  font-size: 18px;
+  line-height: 133%;
+  color: #FFFFFF;
+  font-weight: 600;
+  }
+
+  &__list-title{
+    font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  margin-bottom: 25px;
+  }
+
+  &__item {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-top: 10px;
+  }
+
+  &__link {
+    color: #FFFFFF;
+    font-weight: 400;
+    &:hover{
+      color: #E6E6E6;
+    }
+  }
+
+  &__icon{
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: middle;
+    svg{
+      vertical-align: middle;
+      fill: #fff;
+    }
+  }
+
+  &__item-link{
+  font-size: 18px;
+  line-height: 133%;
+  color: #FFFFFF;
+  &:hover{
+    color: #E6E6E6;
+    svg {
+      fill: #E6E6E6;
+    }
+  }
+  }
+
+  &__list-icons {
+    padding: 20px 0 0;
+    display: flex;
+    align-items: center;
+  }
+
+  &__item-icon {
+    margin-right: 15px;
+  }
+
+  &__link-icon{
+    display: inline-block;
+  }
+
+  &__link-icon{
+    svg{
+      fill: #E6E6E6;
+    }
+    &:hover{
+      svg{
+        fill: #fff;
+      }
+      
+    }
+  }
+
+  &__help{
+    padding: 15px 0;
+    border-top: 1px solid #FFFFFF;
+    transform: rotate(0.15deg);
+  }
+}

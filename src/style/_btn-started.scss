@@ -1,0 +1,20 @@
+.btn-started {
+  padding: 13px 34px 13px 35px;
+
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 24px;
+
+  display: block;
+  text-align: center;
+  
+  background: #B53071;
+  border-radius: 25px;
+  transition: all 0.3 ease;
+  white-space: nowrap;
+
+  &:hover{
+    background: #921f57;
+    opacity: 0.8;
+  }
+}
